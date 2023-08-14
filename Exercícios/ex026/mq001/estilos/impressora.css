@@ -1,3 +1,23 @@
 @charset "UTF-8";
 
 /* Estilo para impressora*/
+
+*{
+    margin: 10;
+    padding: 10;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+menu{
+    display: none;
+}
+article{
+    width: 100%;
+}
+
+article::after{
+    content: 'Este artigo foi impresso através do site www.curdoemvideo.com.br';
+}
