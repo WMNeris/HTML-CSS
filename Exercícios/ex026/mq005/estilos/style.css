@@ -23,7 +23,7 @@ h1{
     background-color: rgb(41, 40, 40);
     display: block;
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 10px;
     cursor: pointer;
 }
