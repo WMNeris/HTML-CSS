@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Tecnologia</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
 
-        <menu>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="">Esportes</a></li>
@@ -64,5 +67,16 @@
             <p>"Por exemplo, um pesquisador que na universidade é um white hat pode no tempo livre atuar como gray hat - mas vai continuar sendo um hacker", finaliza.</p>
         </article>
     </main>
+
+    <script>
+        function clickMenu() {
+            if(itens.style.display == "block"){
+                itens.style.display = "none"
+            } else{
+                itens.style.display = "block"
+            }
+            
+        }
+    </script>
 </body>
 </html>
